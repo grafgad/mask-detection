@@ -7,15 +7,16 @@
 
 ## Инструкция по установке и использованию:
 1. В [Ultralytics](https://docs.ultralytics.com) не все библиотеки работают на Python 3.12, поэтому лучше работать на весрии 3.11.
-2. Установить библиотеки (pip install ultralytics, pip install roboflow).
-3. На сайте [Roboflow](https://roboflow.com) выбрать датасет и подключить ее к модели (там есть инструкция, нужно копировать и вставить в код)
-4. Далее нужно указать файл для анализа и файл куда модель сохранит результат. Я все это оформил методом, куда ввожу эти данные.
+2. Установить библиотеки: Ultralytics, Roboflow (pip install ultralytics, pip install roboflow).
+3. Зарегистрироваться на сайте [Roboflow](https://roboflow.com), выбрать датасет и подключить ее к модели (там есть инструкция, нужно копировать и вставить в код)
+4. Там же нужно найти персональный ключ (Private API Key), создать файл apikey.txt и вставить ваш ключ в файл.
+5. Далее нужно указать файл для анализа и файл куда модель сохранит результат. Я все это оформил методом, куда ввожу эти данные.
 
 
-Дополнение:
-1. Я выбрал модель [YOLOv8](https://github.com/ultralytics/ultralytics).
-2. Выбранный [Датасет](https://universe.roboflow.com/yolo-1ulj8/masks-detection-kwy1r)
-3. Выполнено версионирование (pip freeze > requirements.txt)
+Дополнение:  
+Я выбрал модель [YOLOv8](https://github.com/ultralytics/ultralytics).  
+Выбранный [Датасет](https://universe.roboflow.com/yolo-1ulj8/masks-detection-kwy1r)  
+Выполнено версионирование (pip freeze > requirements.txt)
 
 
 ## Пример картинки и результата.
